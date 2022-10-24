@@ -370,7 +370,7 @@ def genSymbolWord(file_name):
     text += genTextTypeWord('斜钩', '㇂')
     text += genTextTypeWord('弯钩', '㇁')
     text += genTextTypeWord('卧钩', '㇃')
-    text += genTextTypeWord('引号', '「」 「 」')
+    text += genTextTypeWord('引号', '「」 「 」 『』 『 』')
 
     open(file_name, 'w', encoding = 'utf-8').write(text)
 
